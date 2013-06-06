@@ -21,16 +21,6 @@ if (window) {
         wordoExample: wordoExample
     });
 }
-
-var colouredAnimals = _.flatten(
-    _.map(wordo.adjectives.colour, function (colour) {
-        return _.map(wordo.nouns.animals, function (animal) {
-            return colour + ' ' + animal;
-        });
-    })
-);
-
-console.log(colouredAnimals[0]);
 },{"../lib":2,"lodash":3}],3:[function(require,module,exports){
 (function(global){/**
  * @license
