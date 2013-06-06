@@ -1,26 +1,36 @@
 ;(function(e,t,n){function i(n,s){if(!t[n]){if(!e[n]){var o=typeof require=="function"&&require;if(!s&&o)return o(n,!0);if(r)return r(n,!0);throw new Error("Cannot find module '"+n+"'")}var u=t[n]={exports:{}};e[n][0].call(u.exports,function(t){var r=e[n][1][t];return i(r?r:t)},u,u.exports)}return t[n].exports}var r=typeof require=="function"&&require;for(var s=0;s<n.length;s++)i(n[s]);return i})({1:[function(require,module,exports){
 var _ = require('lodash');
-var wordy = require('../lib');
+var wordo = require('../lib');
 
-var wordyExample = {};
+var wordoExample = {};
 
-wordyExample.combos = _.flatten(
-    _.map(wordy.adjectives.all, function (adjective) {
-        return _.map(wordy.nouns.all, function (noun) {
+wordoExample.combos = _.flatten(
+    _.map(wordo.adjectives.all, function (adjective) {
+        return _.map(wordo.nouns.all, function (noun) {
             return adjective + ' ' + noun;
         });
     })
 );
 
-wordyExample.shuffledCombos = _.shuffle(wordyExample.combos);
+wordoExample.shuffledCombos = _.shuffle(wordoExample.combos);
 
 if (window) {
     _.assign(window, {
         _: _,
-        wordy: wordy,
-        wordyExample: wordyExample
+        wordo: wordo,
+        wordoExample: wordoExample
     });
 }
+
+var colouredAnimals = _.flatten(
+    _.map(wordo.adjectives.colour, function (colour) {
+        return _.map(wordo.nouns.animals, function (animal) {
+            return colour + ' ' + animal;
+        });
+    })
+);
+
+console.log(colouredAnimals[0]);
 },{"../lib":2,"lodash":3}],3:[function(require,module,exports){
 (function(global){/**
  * @license

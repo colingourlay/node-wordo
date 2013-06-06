@@ -2,7 +2,7 @@
 
 A collection of words, broken down by classification
 
-# example
+## Example
 
 ```
 var wordo = require('wordo');
@@ -16,17 +16,11 @@ var colouredAnimals = _.flatten(
     })
 );
 
-console.log(colouredAnimals[0]);
-
-//
+console.log(colouredAnimals[0]); // "beige aardvark"
 
 ```
 
-# limitations
-
-So far only contains a list of adjectives and nouns. Nouns are only divided into animals and other at this stage.
-
-# install
+## Install
 
 With [npm](https://npmjs.org) do:
 
@@ -34,6 +28,10 @@ With [npm](https://npmjs.org) do:
 npm install wordo
 ```
 
-# license
+## Limitations
+
+So far only contains a list of adjectives and nouns. Nouns are only divided into animals and other at this stage.
+
+## license
 
 MIT
