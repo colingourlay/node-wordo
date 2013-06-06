@@ -1,0 +1,22 @@
+{
+  "name": "wordo",
+  "version": "0.0.1",
+  "description": "A collection of words, broken down by classification",
+  "main": "lib/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/colingourlay/node-wordo.git"
+  },
+  "keywords": [
+    "word",
+    "words",
+    "noun",
+    "adjective"
+  ],
+  "author": "Colin Gourlay",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "~1.2.1"
+  }
+}
