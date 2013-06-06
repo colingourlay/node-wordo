@@ -1,6 +1,6 @@
 {
   "name": "wordo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A collection of words, broken down by classification",
   "main": "lib/index.js",
   "scripts": {},
