@@ -2,6 +2,8 @@
 
 A collection of words, broken down by classification
 
+[![NPM](https://nodei.co/npm/wordo.png)](https://nodei.co/npm/wordo/)
+
 ## Example
 
 ```
