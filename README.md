@@ -37,3 +37,7 @@ So far only contains a list of adjectives and nouns. Nouns are only divided into
 ## license
 
 MIT
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/colingourlay/node-wordo/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
